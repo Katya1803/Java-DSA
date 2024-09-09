@@ -102,7 +102,6 @@ public class LinkedList<T> extends AbstractList<T>{
         } else {
             removedNode.prev.next = removedNode.next;
             removedNode.next.prev = removedNode.prev;
-            return removedNode.data;
         }
         size--;
         return removedNode.data;
