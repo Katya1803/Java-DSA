@@ -4,6 +4,8 @@ import example.datastructures.linear.QueueExample;
 import example.datastructures.linear.StackExample;
 import example.datastructures.nonlinear.AVLExample;
 import example.datastructures.nonlinear.BSTExample;
+import example.datastructures.nonlinear.HashMapExample;
+import example.datastructures.nonlinear.HashSetExample;
 
 public class Main {
     public static void main(String[] args) {
@@ -30,5 +32,13 @@ public class Main {
         System.out.println("\nAVL Example:");
         AVLExample avlExample = new AVLExample();
         avlExample.demo();
+
+        System.out.println("HashMap Example:");
+        HashMapExample hashMapExample = new HashMapExample();
+        hashMapExample.demo();
+
+        System.out.println("\nHashSet Example:");
+        HashSetExample hashSetExample = new HashSetExample();
+        hashSetExample.demo();
     }
 }
