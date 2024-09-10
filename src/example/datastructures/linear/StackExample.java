@@ -1,4 +1,4 @@
-package example.datastructures;
+package example.datastructures.linear;
 
 import datastructures.linear.Stack;
 

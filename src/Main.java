@@ -1,7 +1,9 @@
-import example.datastructures.ArrayListExample;
-import example.datastructures.LinkedListExample;
-import example.datastructures.QueueExample;
-import example.datastructures.StackExample;
+import example.datastructures.linear.ArrayListExample;
+import example.datastructures.linear.LinkedListExample;
+import example.datastructures.linear.QueueExample;
+import example.datastructures.linear.StackExample;
+import example.datastructures.nonlinear.AVLExample;
+import example.datastructures.nonlinear.BSTExample;
 
 public class Main {
     public static void main(String[] args) {
@@ -20,5 +22,13 @@ public class Main {
         System.out.println("\nRunning QueueExample:");
         QueueExample queueExample = new QueueExample();
         queueExample.demo();
+
+        System.out.println("BST Example:");
+        BSTExample bstExample = new BSTExample();
+        bstExample.demo();
+
+        System.out.println("\nAVL Example:");
+        AVLExample avlExample = new AVLExample();
+        avlExample.demo();
     }
 }
