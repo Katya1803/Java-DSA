@@ -1,3 +1,5 @@
+import example.algorithms.searching.BinarySearchExample;
+import example.algorithms.searching.LinearSearchExample;
 import example.datastructures.linear.ArrayListExample;
 import example.datastructures.linear.LinkedListExample;
 import example.datastructures.linear.QueueExample;
@@ -37,7 +39,13 @@ public class Main {
 //        System.out.println("\nHashSet Example:");
 //        HashSetExample hashSetExample = new HashSetExample();
 //        hashSetExample.demo();
+//
+//        GraphExample.demo();
+//
+        System.out.println("Linear Search Example:");
+        LinearSearchExample.demo();
 
-        GraphExample.demo();
+        System.out.println("\nBinary Search Example:");
+        BinarySearchExample.demo();
     }
 }
