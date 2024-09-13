@@ -1,3 +1,4 @@
+import algorithms.sorting.*;
 import example.algorithms.searching.BinarySearchExample;
 import example.algorithms.searching.LinearSearchExample;
 import example.datastructures.linear.ArrayListExample;
@@ -42,10 +43,16 @@ public class Main {
 //
 //        GraphExample.demo();
 //
-        System.out.println("Linear Search Example:");
-        LinearSearchExample.demo();
+//        System.out.println("Linear Search Example:");
+//        LinearSearchExample.demo();
+//
+//        System.out.println("\nBinary Search Example:");
+//        BinarySearchExample.demo();
 
-        System.out.println("\nBinary Search Example:");
-        BinarySearchExample.demo();
+        BubbleSort.demo();
+        SelectionSort.demo();
+        InsertionSort.demo();
+        MergeSort.demo();
+        QuickSort.demo();
     }
 }
